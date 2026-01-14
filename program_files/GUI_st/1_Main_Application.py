@@ -147,7 +147,7 @@ def main_input_sidebar() -> st.runtime.uploaded_file_manager.UploadedFile:
 
         # Submit button to start optimization.
         st.form_submit_button(
-            label="Start Optimization",
+            label="Start Run",
             on_click=change_state_submitted_optimization,
             help=GUI_helper["main_fs_start_optimization"])
 
